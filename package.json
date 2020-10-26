@@ -1,9 +1,9 @@
 {
-  "name": "easytree",
-  "version": "0.0.1",
-  "description": "A small package to easily build a tree menu",
-  "module": "dist/easytree.esm.js",
-  "browser": "dist/easytree.umd.js",
+  "name": "listree",
+  "version": "0.0.2",
+  "description": "Package to convert a nested list into a tree menu",
+  "module": "dist/listree.esm.min.js",
+  "browser": "dist/listree.umd.min.js",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suryasankar/easytree.git"
+    "url": "git+https://github.com/suryasankar/listree.git"
   },
   "author": "Surya Sankar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/suryasankar/easytree/issues"
+    "url": "https://github.com/suryasankar/listree/issues"
   },
-  "homepage": "https://github.com/suryasankar/easytree#readme",
+  "homepage": "https://github.com/suryasankar/listree#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.1",
     "@rollup/plugin-node-resolve": "^7.0.0",

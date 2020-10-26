@@ -1,21 +1,21 @@
-.easytree-submenu-heading {
+.listree-submenu-heading {
     cursor: pointer;
 }
-ul.easytree {
+ul.listree {
     list-style: none;
 }
-ul.easytree-submenu-items {
+ul.listree-submenu-items {
     list-style: none;
     border-left: 1px dashed black;
     white-space: nowrap;
     margin-right: 4px;
     padding-left: 20px;
 }
-div.easytree-submenu-heading.collapsed:before {
+div.listree-submenu-heading.collapsed:before {
     content: "+";
     margin-right: 4px;
 }
-div.easytree-submenu-heading.expanded:before {
+div.listree-submenu-heading.expanded:before {
     content: "-";
     margin-right: 4px;
 }

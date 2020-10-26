@@ -12,13 +12,13 @@ export default {
         commonjs(),// so Rollup can convert `ms` to an ES module
         terser(),
         scss({
-            output: 'dist/easytree.css',
+            output: 'dist/listree.min.css',
             outputStyle: "compressed"
         }),
     ],
     output: [
         {
-            name: 'easytree',
+            name: 'listree',
             file: pkg.browser,
             format: 'umd',
         },

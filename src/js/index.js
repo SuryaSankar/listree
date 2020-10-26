@@ -1,7 +1,7 @@
 import '../styles/main.scss';
 
-const easytree = function() {
-    const subMenuHeadings = document.getElementsByClassName("easytree-submenu-heading");
+const listree = function() {
+    const subMenuHeadings = document.getElementsByClassName("listree-submenu-heading");
     Array.from(subMenuHeadings).forEach(function(subMenuHeading){
       subMenuHeading.classList.add("collapsed");
       subMenuHeading.nextElementSibling.style.display = "none";
@@ -23,4 +23,4 @@ const easytree = function() {
     });
 }
 
-export default easytree;
+export default listree;
