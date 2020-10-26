@@ -1,6 +1,6 @@
 {
   "name": "listree",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Package to convert a nested list into a tree menu",
   "module": "dist/listree.esm.min.js",
   "browser": "dist/listree.umd.min.js",

@@ -9,7 +9,7 @@ Include listree.min.css and listree.min.umd.js in the header and footer respecti
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://unpkg.com/listree@0.0.2/dist/listree.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/listree/dist/listree.min.css"/>
     <title>LisTree</title>
   </head>
   <body>
@@ -118,7 +118,7 @@ Include listree.min.css and listree.min.umd.js in the header and footer respecti
             </ul>
         </li>
     </ul>
-    <script src="https://unpkg.com/listree@0.0.2/dist/listree.umd.min.js"></script>
+    <script src="https://unpkg.com/listree/dist/listree.umd.min.js"></script>
     <script>
         listree();
     </script>
