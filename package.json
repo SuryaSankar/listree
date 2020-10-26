@@ -1,6 +1,6 @@
 {
   "name": "listree",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Package to convert a nested list into a tree menu",
   "module": "dist/listree.esm.min.js",
   "browser": "dist/listree.umd.min.js",
@@ -8,7 +8,8 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "test": "node test/test.js",
-    "pretest": "npm run build"
+    "pretest": "npm run build",
+    "deploy": "npm run build; npm publish"
   },
   "repository": {
     "type": "git",
