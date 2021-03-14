@@ -1,6 +1,6 @@
 import '../styles/main.scss';
 
-const listree = function() {
+function listree() {
     const subMenuHeadings = document.getElementsByClassName("listree-submenu-heading");
     Array.from(subMenuHeadings).forEach(function(subMenuHeading){
       subMenuHeading.classList.add("collapsed");

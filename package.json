@@ -1,15 +1,13 @@
 {
   "name": "listree",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Package to convert a nested list into a tree menu",
   "module": "dist/listree.esm.min.js",
   "browser": "dist/listree.umd.min.js",
+  "main":"dist/listree.cjs.min.js",
   "scripts": {
     "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "test": "node test/test.js",
-    "pretest": "npm run build",
-    "deploy": "npm run build; npm publish"
+    "watch": "rollup -c -w"
   },
   "repository": {
     "type": "git",
@@ -22,10 +20,7 @@
   },
   "homepage": "https://github.com/suryasankar/listree#readme",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^11.0.1",
-    "@rollup/plugin-node-resolve": "^7.0.0",
     "rollup": "^1.29.0",
-    "rollup-plugin-postcss": "^3.1.8",
     "rollup-plugin-scss": "^2.6.1",
     "rollup-plugin-terser": "^7.0.2"
   },
