@@ -1,8 +1,10 @@
 import '../styles/main.scss';
 
-function listree({
-    submenuHeadingClass="listree-submenu-heading", expandedClass="expanded", collapsedClass="collapsed"}) {
-  const subMenuHeadings = document.getElementsByClassName(submenuHeadingClass);
+function listree() {
+  const subMenuHeadingClass = "listree-submenu-heading";
+  const expandedClass = "expanded";
+  const collapsedClass = "collapsed";
+  const subMenuHeadings = document.getElementsByClassName(subMenuHeadingClass);
   Array.from(subMenuHeadings).forEach(function(subMenuHeading){
     subMenuHeading.classList.add(collapsedClass);
     subMenuHeading.nextElementSibling.style.display = "none";
